@@ -1,0 +1,15 @@
+MAKE RESOURCE UNIQUE
+A lot of problems originate from the use of overlapping resource names, either between different tests run done by the same user or
+between simoultaneous test runs done by different users. Such problems can be prevented (or repaired) by using unique identifiers for all 
+resources that are allocated, for example including a time-stamp. When you include the name of the test responsible for allocating the
+resource in this identifier, you will have less problems finding tests that do not properly release their resources.
+
+
+MOTIVATION:
+
+MECHANICS:
+
+EXAMPLES (commit number):
+
+JodaTime:
+80486e850b962655154d7f1b8eed3b89782fbbcd

@@ -1,0 +1,10 @@
+SETUP EXTERNAL RESOURCE
+If it is necessary for a test to rely on external resources, such as directories, databases, or files, make sure the test that 
+uses them explicitly creates or allocates these resources before testing, and releases them when done. The resources have to before
+released when the test fails as well.
+
+MOTIVATION:
+
+MECHANICS:
+
+EXAMPLES (commit number):

@@ -1,0 +1,25 @@
+
+CHANGING MAGIC NUMBER
+
+
+MOTIVATION:
+Changes in requirements can trigger the
+adjustment of test cases to handle new cases. A magic number
+usually represents specific cases to be tested. If the case
+changes, then the magic number also has to be changed.
+
+MECHANICS:
+Change magic numbers inside a test method.
+
+EXAMPLES (commit number):
+
+JodaTime
+e2d472ba27e96185c13868f5c1b638a707a50e3b
+6d3a272c0ace74604b29e11b9850853b0b03bf34
+96f586cb8dac7eee62e9be519a3eab125c47bb23
+35bff3d17af8190fed77b92512f1777ad2b68fe9
+b95ebe240aa65d2d28deb84b76d8a7edacf922f8
+
+PDM
+afc13b29a20036ffbdabc13753e952807be7e91e
+15b36498f374639b07ad12c34af9c407fd78343d

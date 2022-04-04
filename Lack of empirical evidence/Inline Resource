@@ -1,0 +1,12 @@
+
+INLINE RESOURCE
+[Deursen] To remove the dependency between a test method and some external resource incorporating that resource in the test code.
+This is done by setting up a fixture in the test code that holds the same contents as the resource. 
+This fixture is then used instead of the resource to run the test. A simple example of this refactoring is putting the contents of
+a file that is used into some string in the test code.
+
+MOTIVATION:
+
+MECHANICS:
+
+EXAMPLES (commit number):

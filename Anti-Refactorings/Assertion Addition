@@ -1,0 +1,56 @@
+
+ASSERTION ADDITION
+
+MOTIVATION:
+Although bad practice, it is common to
+refactor an existing test case to add assertion clauses to verify
+new return values from an implemented method, which is
+usually done to avoid creating more than one test method for
+the same code unit.
+
+MECHANICS:
+
+- Assign another value to an existing variable in the test
+case
+- Add an assertion to verify the new value that the variable
+holds
+- (optional) Add an assertion to verify a new magic value
+
+EXAMPLES (commit number):
+
+JodaTime
+a8913f5ad5dfde59263c981c9e9eb28e43fd2e00
+12fce67142744ed4f8fa78b6a5561434987195dd
+46b817a006e768865b1f0d2896e814dfa2d3244f
+b99b715061f2e333d6d2586e77d257807b9f6cd0
+7fe4b477d279001403795e09c6a1191d7304e889
+96f586cb8dac7eee62e9be519a3eab125c47bb23
+362ed1787724cda3ded37de2b0aa0f13adf0a66e
+06867a48517f71c740016cd3d9e84558ab56cd49
+7161f9c03d40dbe6325906931a7b3d3a310bfb12
+b9a9b5737163f5b60643a37aa57893fc248c5439
+dbda260e5c2bfac5c20813c1a7645e8f15f89a6d
+0a201881f01bce85efece778345ebd60cf58ba35
+c641604af077d158c91524f12dbf7cc2003b0916
+53922f2a5d3ca0750c22e4ead2194175545598d4
+67e9e5c65c662c4cba609d30cb7fa2726f2ce7a9
+
+PMD
+67b1ad9c98a8d8643ba7235015ca5c2b87f7fd82
+55a912e731236fc79025fd031734cc06d4c78aa5
+b1769846e553f7bc7eb94461fa2b80440611978d
+b965cf45b3c1d5c165514144d24fae132ed4cc7b
+38741d4638cb10964a5b5fedb10e32aafe69a58b
+ba260e753ca0d97cd8badcd73f901c77dbee5fc4
+babe32a16c61bc3d6314324ea7bcc165cf70ca19
+1b910587f30e2671ef6216565116f176c0b1765a
+039d4429f974423bd231b67f4dcc639bc33182b0
+13025f875d09f1275b3cfc9b2cb5c17ea26b1373
+7c04542861e51c752a86755738e2c51cd0e2c663
+2be5b987bede3a2d90c5f9c65761c74b1773eae0
+f4e6a1716c7869f965c597672deffd51c7f80f83
+b8e1738f55d35c6927e66cfa1ac0afa02b4d4915
+39b3f62d33925807c5fa1c8ac4de5bb3fcca3b7a
+0c2099ab98686128aeabe7cbd946751e03dd416a
+35597c9ef09cfd555ff2a64e3b5c71d43381cc59
+12a16caf69731a2d2f2d5f8d167d858e7b64c09a

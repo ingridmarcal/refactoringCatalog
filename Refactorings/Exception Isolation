@@ -1,0 +1,22 @@
+
+EXCEPTION TEST ISOLATION
+
+
+MOTIVATION:
+Test cases are created to find bugs and
+situations where exceptions may arise. However, in some
+cases, it can be necessary to induce a particular exception
+condition to test whether the system handles it correctly. In
+such cases, it is possible to isolate the exception handling in
+a specific test case.
+
+MECHANICS:
+- Create a test method for testing the exception
+- Extract the exception testing from the existing test case
+- Create
+
+EXAMPLES (commit number):
+
+JodaTime
+77a6b3a44da7ae4af62e88b4b27eeefec2d768c2
+55876b98250c1afaf23be12fb5fc4bd3677abbce

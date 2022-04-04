@@ -1,0 +1,28 @@
+
+
+RENAME TEST
+
+MOTIVATION:
+A developer may change the signature of a
+test method to reflect the test method’s intent better.
+
+MECHANICS:
+Change the signature of a test method without altering
+its parameters or return value
+
+EXAMPLES (commit number):
+
+JodaTime
+82c5e4f9550e4df36e07b66f35f7c3e9d7eb5eba
+77a6b3a44da7ae4af62e88b4b27eeefec2d768c2
+3a413d7844c22dc6ddd50bf5d0d55ff3589e47ac
+6d8d6e625dc76b8d2fbcc7ee8c9e15402f2c7ca7
+ec4c7b5fe0d7e52ccd43090bf2f8eb651f74b5db
+a5d9d7e5d169587db3523417b7760f4080388826
+c6a92aebb9ba03440e4225dd3db205d46a49995e
+2948a362fdd63f2799794fd2ce316666756cacd5
+
+PMD
+8e9313791ff00792a4068fd98b50567ad89fd7b2
+81360531546f94974d0acf12c7bc39c23d9d618a
+b38dc2cd02396d6b2995249ee354dbb60f5badd5

@@ -1,0 +1,21 @@
+
+
+JOIN EXCEPTION TESTING
+When a new exception handling routine is implemented in production code, developers have to update the test suite to guarantee the correct
+behavior in case the new exception occurs. We observed that it is common practice to add the exception testing to the same test case
+that verifies the application method. It can be considered a bad testing practice, since exception must be tested in its own test method
+
+MOTIVATION:
+
+MECHANICS:
+
+EXAMPLES (commit number):
+
+JodaTime
+0cefc4c212e92e5dccdfa658785c419483317558
+b99b715061f2e333d6d2586e77d257807b9f6cd0
+96f586cb8dac7eee62e9be519a3eab125c47bb23
+362ed1787724cda3ded37de2b0aa0f13adf0a66e
+3ba9ba799b3261b7332a467a88be142c83b298fd
+ec4c7b5fe0d7e52ccd43090bf2f8eb651f74b5db
+ca8f807b99b16ce5cc51444ce17ca12abdc7ff80

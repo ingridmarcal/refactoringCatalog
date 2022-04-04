@@ -1,0 +1,38 @@
+ADD FIXTURE
+
+MOTIVATION:
+With software evolution and new features,
+it may be necessary to add new setup operations to configure
+the system’s state under test for testing appropriately.
+
+MECHANICS:
+Create a new fixture by adding some configuration to the
+setup method
+
+EXAMPLES (commit number):
+
+JodaTime:
+5a59a1f60df3346bc8db8d893795237edb581d66
+cdeacf09e33ddbaf75a4563d7bc62063f50972b1
+cc3262ff42e41f3b1f64290262704da3895fbe85
+
+PMD
+2b9df33f999fc57338cf643ce377da63cc447054
+89e7d0433a4acedd1f0fd539a7b670b111a2d2fb
+e0cd7adeef80c357264af4bcb41cc29811ea973a
+454be6f1f161e7d980093dc750f14db321bd3b2f
+445bd2d2605c86f4828a8483e5669b2bf90f451e
+4a5a80197bd22ff62a3b9e19b8c663a0bc705c17
+2899a679b3cfe548ba55110f1cc4af7d98cb30ca
+3393507082938c28f62d1e08cc2e39092ff277df
+2ec75e7050047cfb9054da8f2482006420fcbc6a
+efebb1ef6b23b69b236d2efcebde411c917629e9
+d6ef39f4d44cd27b93424e4dfff5970d504d575f
+e027871f2a909e01c5a7d9a0638afe34dd864708
+d0ef852a067dfcaeb206085cbabf899e42a5e4c4
+6ab90887593b2138a03cdf75988e40988a86e119
+3ecc9be86f0b922da0a3ec09a423407746b076ec
+2346176fe578d4021e5cafdd270564abb7bb4675
+40282e77aef01468fa8faf9d55a3e5914527c79d
+9c3a97f6412a4878638932f80ef1eb5f2425f7ef
+c0f1d36b05064c848b0b2cb9c3cf5e87b3daa390

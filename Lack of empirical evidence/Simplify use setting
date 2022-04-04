@@ -1,0 +1,16 @@
+
+
+SIMPLIFY USE SETTING
+It: substitutes the actions to
+simpler ones with the same effect on test target.
+
+MOTIVATION:
+
+MECHANICS:
+
+EXAMPLES (commit number):
+JodaTime
+226b0439bbe1eb2ed144a163827167635b492b69
+
+PMD
+8ce1607b236bf1c5dd85ef520bb6cc2f35bee91c

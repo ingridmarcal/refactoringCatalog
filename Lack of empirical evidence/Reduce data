@@ -1,0 +1,12 @@
+REDUCE DATA
+
+Minimize the data that is setup in fixtures to the bare
+essentials. This will have two advantages: (1) it make
+them better suitable as documentation, and (2) your tests
+will be less sensitive to changes.
+
+MOTIVATION:
+
+MECHANICS:
+
+EXAMPLES (commit number):
